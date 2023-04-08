@@ -3,7 +3,7 @@ ERT assessment: IRI model
 
 The code contained in this repository runs the IRI model and generates vertical electron density profile data. Gnuplot scripts are included for generating the plots (also included).
 
-The code requires the IRI model files and accessory data files to be contained within the same directory as call_IRI.c. 
+The code requires the IRI model files and accessory data files to be contained within the same directory as call_IRI.c. These are not included in this repository.
 
 "inputs.txt" contains the input parameters necessary to run the code -- geographic coordinates, date and time, etc.
 "indat_jf.txt" contains the true/false inputs to the IRI model. They're set to the defaults, and stored as integers for ease of interface with Fortran.
