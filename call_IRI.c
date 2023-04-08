@@ -201,7 +201,7 @@ void read_jf(int jf[50]){
     int j;
     char buff[1];
     
-    while(fscanf(jf_file, "%s %*s", buff) == 1){
+    while(fscanf(jf_file, "%s", buff) == 1){
         j = atoi(buff);
         jf[i] = j;
         i++;
