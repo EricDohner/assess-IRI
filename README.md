@@ -3,7 +3,7 @@ ERT assessment: IRI model
 
 The code contained in this repository runs the IRI model and generates vertical electron density profile data. Gnuplot scripts are included for generating the plots (also included).
 
-The code requires the IRI model files and accessory data files to be contained within the same directory as call_IRI.c. These are not included in this repository.
+The code requires the IRI model files and accessory data files to be contained within the same directory as call_IRI.c. These are not included in this repository. It also requires ig_rz.dat and apf107.dat, also not included but available from the same source.
 
 "inputs.txt" contains the input parameters necessary to run the code -- geographic coordinates, date and time, etc.
 "indat_jf.txt" contains the true/false inputs to the IRI model. They're set to the defaults, and stored as integers for ease of interface with Fortran.
@@ -19,3 +19,5 @@ The code requires the IRI model files and accessory data files to be contained w
 "gnuplot plot_HvE_mar3.p" generates a plot of altitude vs. N (in m^-3) with labels for NMF2, etc. for March 3rd, 2021, 1100 UTC.
 
 "gnuplot plot_HvE_mar4.p" generates a plot of altitude vs. N (in m^-3) with labels for NMF2, etc. for March 4th, 2021, 2300 UTC.
+
+Note: inputs.txt must be changed manually for each set of parameters! plot_HvE_marX.p will not automatically set those parameters and rerun. Those two files simply contain the correct values for the labels.
