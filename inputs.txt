@@ -1,0 +1,8 @@
+0	37.8	-75.4	2021	0304	23.00	80	600	1	
+JMAG	ALATI	ALONG	IYYYY	-DDD	DHOUR	HEIBEG	HEIEND	HEISTP
+
+ALATI, ALONG: latitude and longitude.
+IYYY/-DDD: date. Day should be a negative integer whose absolute value is equal to the day of the year, or positive integer in MMDD format.
+DHOUR: decimal hour.
+HEIBEG, HEIEND: beginning and end of height range.
+HEISTP: height step.
